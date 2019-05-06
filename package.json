@@ -1,13 +1,13 @@
 {
   "name": "expo-login-keycloak",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "TypeScript + Expo + Keycloak login",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --project .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "npm run build && ./node_modules/npm-auto-version/bin/npm-auto-version",
+    "prepublish": "npm-auto-version",
     "postpublish": "git push origin --tags"
   },
   "repository": {

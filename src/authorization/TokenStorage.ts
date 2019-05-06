@@ -1,5 +1,5 @@
 import { AsyncStorage } from 'react-native';
-import * as jwtDecode  from 'jwt-decode';
+import jwtDecode from 'jwt-decode';
 
 export class TokenStorage {
   key;

@@ -1,0 +1,38 @@
+{
+  "name": "expo-login-keycloak",
+  "version": "1.0.0",
+  "description": "TypeScript + Expo + Keycloak login",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --project .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm-auto-version",
+    "postpublish": "git push origin --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxer066/expo-login-keycloak.git"
+  },
+  "keywords": [
+    "auth",
+    "expo",
+    "login",
+    "keycloak",
+    "oauth",
+    "openid"
+  ],
+  "author": "Lucas Canavesio <lcanavesio@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react-native": "^0.57.51",
+    "expo": "^32.0.6",
+    "npm-auto-version": "^1.0.0",
+    "query-string": "^6.5.0",
+    "react-native": "^0.59.5",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "jwt-decode": "^2.2.0"
+  }
+}

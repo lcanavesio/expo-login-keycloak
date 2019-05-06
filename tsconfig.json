@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2016"
+        ],
+        "moduleResolution": "node",
+        "strict": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "baseUrl": ".",
+        "outDir": "dist/",
+        "types": ["react-native"],
+        "declaration": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
